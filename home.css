@@ -1,0 +1,98 @@
+.MG{
+    min-height: 80vh;
+    background: url("2.jpg");
+    background-size: cover;
+    background-position: center;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-container {
+  display: flex;
+  }
+  
+  
+  .background-transparent{
+    display: flex;
+  justify-content: center;
+   height: 70vh;
+   width: 130vh;
+   border-radius: 2em;
+   align-items: center;
+   position: relative;
+   z-index: 1;
+ 
+  }
+  .MG .MGs{
+    background-color: rgba(0, 0, 0, .7);
+    padding: 120px 200px;
+    border-radius: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  } 
+  
+  
+  .MG .MGs p {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
+  .MG .MGs h2{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
+  button{
+    padding: 15px 30px;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
+  .MG{
+    position: relative;
+    height: 100vh;
+  }
+  
+  
+  h1 span{
+    color: orange;
+  }
+.MGs{
+    opacity: 0.74;
+}
+.item{
+    width: 100%;
+
+}
+#courses-container{
+    text-align: center;
+    align-items: center;
+    
+}
+.home-cards{
+    width: 100vh;
+    height:fit-content ;
+    display: flex;
+
+    justify-content:space-between ;
+}
+.images{
+    width: 27%;
+
+}
+.images img{
+    width: 100%;
+
+}
+  
+ 

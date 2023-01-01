@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./HOME.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="MG"> 
+        <div class="MGs">
+            <h2 class="title"> eat() sleep() code () repeat() </h2>
+            <p>While you are alive</p>
+            <button id="btn" type="submit">Courses List</button>
+        </div>
+        </div>
+          
+    </div>
+
+    <div id="courses-container" class="pb-5">
+        <h1><span>/</span>Courses</h1>
+        <div class="container d-flex flex-column align-items-center">
+                <section class="home-cards">
+                    <div class="images">
+                        <img src="https://1.bp.blogspot.com/-BYDL4v8-bD4/XS7UEJB0r5I/AAAAAAAADlE/9Yq4Ynptv28u658I0so0tPp4CrAFR1QtwCLcBGAs/s1600/What%2Bis%2BHTML%2BAttributes.png" alt="" />
+                        <h3>HTML attributes And Values</h3>
+                        <p>
+                            <b> 332.99$</b>
+                        </p>
+                    </div>
+                    <div class="images">
+                        <img src="https://webdevtrick.com/wp-content/uploads/crud-php-mysql.jpg" alt="" />
+                        <h3>Manipulating Crud Using PHP</h3>
+                        <p>
+                            <b> 58.99$</b>
+                        </p>
+                    </div>
+                    <div class="images">
+                        <img src="https://miro.medium.com/max/800/1*5ZsfcbvLC4nsqPYrkuVEPA.png" alt="" />
+                        <h3>CSS selectors</h3>
+                        <p>
+                            <b> 109.99$</b>
+                        </p>
+                    </div>
+          </section>
+            <a href="./courses.html" style="font-size: 20px; color:white;background-color: rgba(197, 143, 248, 0.707);border-color: rgba(197, 143, 248, 0.707);" class="px-4 py-2 btn btn-info text-center mt-5 ">
+                Courses List
+            </a>
+        </div>
+    </div>
+    <script>document.querySelector('#btn').addEventListener('click', event => {document.location.href = "courses.html";});</script>
+    <script src="./main.js"></script>
+    <script src="./home.js"></script>
+</body>
+</html>
